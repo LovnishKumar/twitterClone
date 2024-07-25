@@ -1,0 +1,65 @@
+.sidebar-body {
+    height: 100vh !important;
+    width: 32vh;
+    padding: 20px;
+    margin-left: 15%;
+    position: fixed;
+}
+
+.profilename{
+    z-index: 2;
+}
+.menu-item {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.menu-item:hover {
+    background-color: rgba(139, 189, 255, 0.475);
+    border-radius: 25px 25px 25px 25px;
+}
+
+.profilepic {
+    border-radius: 50%;
+}
+
+.username {
+    margin-top: -15%;
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (max-width: 900px) {
+    .sidebar-body {
+        height: 100vh !important;
+        width: 21vh;
+        padding: 0px;
+        margin-left: 4%;
+        position: fixed;
+    }
+}
+
+/* Media query for small screens (e.g., mobile)
+@media (max-width: 450px) {
+    .sidebar-body {
+        height: 100vh !important;
+        width: 19vh;
+        padding: 0px;
+        margin-left: 0%;
+        position: fixed;
+    }
+
+    .profile-section {
+        display: none !important;
+    }
+
+    .menu-item {
+        font-size: small !important;
+        display: none;
+    }
+    .icons {
+        font-size: small !important;
+        display: flex;
+        flex-direction: row;
+    }
+} */

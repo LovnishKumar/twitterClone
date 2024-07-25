@@ -1,0 +1,30 @@
+.profile-body {
+    margin-left: 36vw;
+    width: 43.2vw;
+}
+
+.blue-div {
+    background-color: rgb(62, 145, 254);
+    height: 100px;
+    width: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.profile-profilepic {
+    border-radius: 50%;
+}
+
+.profile-pic-row {
+    margin-top: -5vh;
+}
+
+@media (max-width: 900px) {
+    .profile-body {
+        margin-left: 35vw;
+        width: 61vw;
+    }
+    .profile-pic-row {
+        margin-top: -3vh;
+    }
+}

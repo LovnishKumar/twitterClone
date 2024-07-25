@@ -1,0 +1,10 @@
+.feed-body {
+    margin-left: 30vw;
+}
+
+@media (max-width: 900px) {
+    .feed-body {
+        margin-left: 35vw;
+        width: 61vw;
+    }
+}
